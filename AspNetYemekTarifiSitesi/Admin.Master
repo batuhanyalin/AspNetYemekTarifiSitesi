@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="AspNetYemekTarifiSitesi.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            font-size: large;
+        }
+        .auto-style3 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="sliderdiv">
+            <asp:Image ID="Image1" runat="server" Height="150px" ImageUrl="~/Resimler/cabuktarif.com adminpanel.png" Width="700px" />
+        </div>
+
+        <div>           
+        </div>
+
+        <div style="height:auto; width:700px; margin-left:100px; margin-top:10px;">
+
+            <div class="adminpanelleftsidebardiv">         
+                <span class="auto-style2"><strong style="font-family: helvetica">MENÜLER</strong><br />
+                </span>
+
+                <table class="auto-style3">
+                    <tr>
+                        <td style="border: 1px solid #FFFFFF"><a href="Kategoriler.aspx">Kategoriler</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #FFFFFF"><a href="Yemekler.aspx">Yemekler</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #FFFFFF"><a href="Yorumlar.aspx">Yorumlar</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #FFFFFF"><a href="Mesajlar.aspx">Mesajlar</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #FFFFFF"><a href="adminGununYemegi.aspx">Günün Yemeği</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #FFFFFF"><a href="Tarifler.aspx">Tarifler</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #FFFFFF"><a href="adminHakkimizda.aspx">Hakkımızda</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #FFFFFF"><a href="AnaSayfa.aspx">Anasayfa</td></a>
+                    </tr>
+                </table>
+
+            </div>
+
+             <div class="adminpanelicerikdiv">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        </div>
+
+       
+    </form>
+</body>
+</html>
+

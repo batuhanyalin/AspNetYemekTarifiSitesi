@@ -1,0 +1,98 @@
+﻿a:link {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+a:hover {
+    font-size: 20px;
+    color: #00ff90;
+}
+.sliderdiv {
+    height: 150px;
+    width: 700px;
+    margin-left: 100px;
+    background-color: #fa0050;
+}
+.menustripbardiv {
+    width: 700px;
+    height: 30px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.leftsidebardiv {
+    width: 170px;
+    height: auto;
+    background-color: #ffaa11;
+    float:left;
+}
+.adminpanelbaslik{
+    font-size:30px;
+    color:white;
+    font-family:Corbel;
+    font-weight:bold;
+}
+.admineklebaslik{
+    font-size:22px;
+    color:darkslategray;
+    font-family:Corbel;
+}
+.adminpaneltablobaslik {
+    color:palegoldenrod;
+    font-family: Corbel;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.adminpanelleftsidebardiv {
+    width: 170px;
+    height: auto;
+    background-color: #096c97;
+    float: left;
+    color:white;
+}
+.adminpanelicerikdiv {
+    width: 520px;
+    height: auto;
+    margin-left: 180px;
+    background-color: cornflowerblue;
+    color:darkslategray;
+}
+.icerikdiv {
+    width: 520px;
+    height: auto;
+    margin-left: 180px;
+    background-color: antiquewhite;
+}
+.tb5 {
+    border: 2px solid #456879;
+    border-radius: 10px;
+    height: 22px;
+    width: 230px;
+}
+.fb8 {
+    border: 2px solid #777;
+    border-radius: 10px;
+    outline: none;
+    height:30px;
+    width:150px;
+}
+.adminkatguncellebuton {
+    border: 2px solid #777;
+    border-radius: 10px;
+    outline: none;
+    height: 30px;
+    width: 190px;
+}
+.baslik {
+    text-align: center;
+    font-family: 'Segoe Script';
+    color: white;
+    background-color: #e01858;
+    font-size: 20px;
+}
+.helloworld {
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
